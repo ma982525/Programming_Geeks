@@ -1,0 +1,47 @@
+body{
+    background: black;
+}
+
+
+.logo img{
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 35px;
+    transform: translateY(-5px);
+}
+
+
+#banner_image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("img/banner_1.jpg") no-repeat center center;
+    background-size: cover;
+}
+#banner_content{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
+
+
+.gap{
+    background-color: #313030;
+    color: white;
+}
+.cards a{
+    color: black;
+}
+.cards a:hover{
+    text-decoration: none;
+    transform: rotate3d(1,0,1,3deg);
+}
+
+.foot{
+    color:white;
+}
